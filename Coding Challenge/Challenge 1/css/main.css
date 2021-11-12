@@ -1,0 +1,185 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background:rgb(27, 27, 27);
+	color: #000000;
+}
+
+.container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.card {
+	background: #FFFFFF;
+	width: 270px;
+	height: 400px;
+	margin: 10px;
+	border-radius: 15px;
+	position: relative;
+	left: 350px;
+}
+.card2 {
+	background: #FFFFFF;
+	width: 270px;
+	height: 300px;
+	margin: 10px;
+	border-radius: 15px;
+	position: relative;
+	left: 350px;
+}
+.card3 {
+	background: #FFFFFF;
+	width: 240px;
+	height: 400px;
+	margin: 10px;
+	border-radius: 15px;
+	position: relative;
+	left: 350px;
+}
+.card4 {
+	background: #FFFFFF;
+	width: 240px;
+	height: 200px;
+	margin: 10px;
+	border-radius: 15px;
+	position: relative;
+	left: 350px;
+}
+
+.card-image1 {
+	margin-bottom: 15px;
+	background-size: cover;
+}
+
+.card2-image2 {
+	margin-bottom: 15px;
+	background-size: cover;
+
+}
+
+.card4-image2 {
+	margin-bottom: 15px;
+	background-size: cover;
+
+}
+
+.card p{
+	padding: 10px;
+	text-align: justify;
+}
+.card2 p{
+	padding: 5px 10px;
+	text-align: justify;
+}
+
+.card3 p{
+	padding: 5px 10px;
+	text-align: justify;
+	color: #000000;
+	line-height: 15px;
+	top: 35px;
+	position: absolute;
+	left: 35px;
+
+}
+
+.card h2 {
+	padding: 10px;
+	font-weight: normal;
+	font-family: 'Poppins';
+	font-size: 20px;
+}
+.card2 h2 {
+	padding: 20px 10px;
+	font-weight: normal;
+	font-family: 'Poppins';
+	font-size: 20px;
+}
+
+.card3 h2 {
+	padding: 57px 10px;
+	font-weight: normal;
+	position: absolute;
+	top: 168px;
+	font-size: 20px;
+	font-family: 'Poppins';
+}
+.card3 h1{
+	padding: 0px 46px;
+	font-weight: bold;
+	font-size: 12px;
+	position: absolute;
+	line-height: 0px;
+	top: 23px;
+	font-family: 'Poppins';
+
+}
+.card3 h3{
+	padding: 0px 46px;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 0px;
+	top: 60px;
+	font-family: 'Poppins';
+	color: #4B4B4B;
+	left: -35px;
+	position: relative;
+
+}
+.card a{
+	color: #3FB2F4;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 15px 3px;
+	text-align: left;
+	margin: 0px 5px;
+	position: inherit;
+	bottom: -15px;
+
+}
+
+.card2 a{
+	color: #3FB2F4;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 15px 3px;
+	text-align: left;
+	margin: 0px 5px;
+	position: inherit;
+	bottom: -15px;
+
+}
+.card3 a{
+	color: #3FB2F4;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 15px 3px;
+	text-align: left;
+	margin: 0px 5px;
+	position: inherit;
+	bottom: -15px;
+
+}
+
+.love{
+	position: absolute;	
+	left: 160px;
+	top: 160px;
+}
+
+.save{
+	position: absolute;	
+	left: 190px;
+	top: 160px;
+}
+
+.lokasi{
+	position: absolute;	
+	left: 210px;
+	top: 158px;
+}
